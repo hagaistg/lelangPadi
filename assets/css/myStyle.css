@@ -1,0 +1,179 @@
+.navbar-header img{
+	width: 200px;
+	height: 50px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-align: left;
+}
+.thumbnail img {
+	width: 50%;
+}
+.item img {
+	margin: 0px auto;
+}
+#success_message{ 
+	display: none;
+}
+legend {
+	text-align: center;
+}
+h4{
+	color :#FFA500;
+}
+.thumbnail a img{
+	width: 200px;
+	height: 210px;
+}
+.footer {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.thumbnail a:hover {
+	text-decoration: none;
+}
+.thumbnail:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.jarak {
+	margin-bottom: 100px;
+}
+#myCarousel ol li.active {
+	background-color:#c2c2d6;
+}
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:10%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead 
+	{ 
+		display: none; 
+	}
+	table#cart tbody td 
+	{ 
+		display: block; 
+		padding: .6rem; 
+		min-width:320px;
+	}
+	table#cart tbody tr td:first-child {
+	 background: #333; color: #fff; 
+	}
+
+	table#cart tbody td:before 
+	{
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	
+	
+	
+	table#cart tfoot td
+	{
+		display:block; 
+	}
+	table#cart tfoot td .btn
+	{
+		display:block;
+	}
+	
+}
+
+#back-to-top {
+	padding-top: 10px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background: #ccc;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}
+#stocks {
+	overflow: hidden;
+}
+#stocks ul {
+	display: inline-block;
+	list-style: none;
+	width: 940px;
+	margin: 0 24px;
+	padding: 0;
+}
+#stocks ul li {
+	float: left;
+	color: #646b85;
+	font-family: 'HammersmithOneRegular';
+	font-size: 14px;
+	line-height: 24px;
+	width: 169px;
+	margin:  80px 80px ;
+	position: relative;
+}
+#stocks ul li img {
+	border: 1px solid #d2cecf;
+	width:200px;
+	height:200px;
+}
+#stocks ul li em {
+	color: #959394;
+	display: block;
+	font-size: 12px;
+}
+#stocks ul li a {
+	background-color: #b8dcdd;
+	color: #7c9e9f;
+	font-size: 12px;
+	font-style: italic;
+	padding: 2px 4px 0;
+	text-decoration: none;
+}
+#stocks ul li a:hover {
+	background-color: #c7eeef;
+}
+#stocks ul li span {
+	float: right;
+	color: #e3b612;
+}
+#stocks .btn-cart {
+	background-color: #e5b614;
+	color: #fcffff;
+	padding: 2px 5px 0;
+}
+#stocks .btn-cart:hover {
+	background-color: #d2941d;
+}
